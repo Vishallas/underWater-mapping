@@ -42,4 +42,5 @@ if status == 0:
 # being detected
 else:
 	print("[INFO] image stitching failed ({})".format(status))
+	
 cv2.destroyAllWindows()
